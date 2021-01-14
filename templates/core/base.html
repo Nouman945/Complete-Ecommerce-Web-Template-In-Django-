@@ -1,0 +1,103 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %} {% endblock title %}</title>
+
+  <!-- Font awesome -->
+  <link href="{% static 'core/css/font-awesome.css' %}" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="{% static 'core/css/bootstrap.css' %}" rel="stylesheet">
+  <!-- SmartMenus jQuery Bootstrap Addon CSS -->
+  <link href="{% static 'core/css/jquery.smartmenus.bootstrap.css' %}" rel="stylesheet">
+  <!-- Product view slider -->
+  <link rel="stylesheet" type="text/css" href="{% static 'core/css/jquery.simpleLens.css' %}">
+  <!-- slick slider -->
+  <link rel="stylesheet" type="text/css" href="{% static 'core/css/slick.css' %}">
+  <!-- price picker slider -->
+  <link rel="stylesheet" type="text/css" href="{% static 'core/css/nouislider.css' %}">
+  <!-- Theme color -->
+  <link id="switcher" href="{% static 'core/css/theme-color/default-theme.css' %}" rel="stylesheet">
+  <!-- Top Slider CSS -->
+  <link href="{% static 'core/css/sequence-theme.modern-slide-in.css' %}" rel="stylesheet" media="all">
+
+  <!-- Main style sheet -->
+  <link href="{% static 'core/css/style.css' %}" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body>
+
+  {% block Navbar_section %} {% endblock Navbar_section %}
+
+  <!-- this block is for 404.html page and its on 2nd number because its after the navigation bar -->
+  {% block Error_page %} {% endblock Error_page %}
+  
+  <!-- contect_section  -->
+  {% block contect_section %} {% endblock contect_section %}
+
+  <!-- shop Page -->
+  {% block Products_shop_section %} {% endblock Products_shop_section %}
+
+  <!-- Slider_section -->
+  {% block Slider_section %} {% endblock Slider_section %}
+
+  <!-- Support_section -->
+  {% block Support_section %} {% endblock Support_section %}
+
+  <!-- Promo_section -->
+  {% block Promo_section %} {% endblock Promo_section %}
+
+  <!-- Products_section -->
+  {% block Products_section %} {% endblock Products_section %}
+
+  <!-- Banner_section -->
+  {% block Banner_section %} {% endblock Banner_section %}
+
+  <!-- Popular_products_section -->
+  {% block Popular_products_section %} {% endblock Popular_products_section %}
+
+  <!-- Brands_section -->
+  {% block Brands_section %} {% endblock Brands_section %}
+
+  <!-- Subscribe_section -->
+  {% block Subscribe_section %} {% endblock Subscribe_section %}
+
+  <!-- Footer_section -->
+  {% block Footer_section %} {% endblock Footer_section %}
+
+
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="{% static 'core/js/bootstrap.js' %}"></script>
+  <!-- SmartMenus jQuery plugin -->
+  <script type="text/javascript" src="{% static 'core/js/jquery.smartmenus.js' %}"></script>
+  <!-- SmartMenus jQuery Bootstrap Addon -->
+  <script type="text/javascript" src="{% static 'core/js/jquery.smartmenus.bootstrap.js' %}"></script>
+  <!-- To Slider JS -->
+  <script src="{% static 'core/js/sequence.js' %}" %}></script>
+  <script src="{% static 'core/js/sequence-theme.modern-slide-in.js' %}"></script>
+  <!-- Product view slider -->
+  <script type="text/javascript" src="{% static 'core/js/jquery.simpleGallery.js' %}"></script>
+  <script type="text/javascript" src="{% static 'core/js/jquery.simpleLens.js' %}"></script>
+  <!-- slick slider -->
+  <script type="text/javascript" src="{% static 'core/js/slick.js' %}"></script>
+  <!-- Price picker slider -->
+  <script type="text/javascript" src="{% static 'core/js/nouislider.js' %}"></script>
+  <!-- Custom js -->
+  <script src="{% static 'core/js/custom.js' %}"></script>
+
+</body>
+
+</html>

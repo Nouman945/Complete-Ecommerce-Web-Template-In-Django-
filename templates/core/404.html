@@ -1,0 +1,15 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %} Page Not Found {% endblock title %}
+
+<!-- Navbar_section -->
+{% block Navbar_section %} {%include 'core/sections/Navbar_section.html' %} {% endblock Navbar_section %}
+
+<!-- 404_section -->
+{% block Error_page %} {% include 'core/sections/404_section.html' %} {% endblock Error_page %}
+
+<!-- Subscribe_section -->
+{% block Subscribe_section %} {% include 'core/sections/subscribe_section.html' %} {% endblock Subscribe_section %}
+
+<!-- footer_section -->
+{% block Footer_section %} {% include 'core/sections/footer_section.html' %} {% endblock Footer_section %}
