@@ -16,7 +16,7 @@ products.html
 wishlist.html
 ```
 
-#Sections 
+# Sections 
 
 ```
 404_section.html
@@ -34,9 +34,9 @@ subscribe_section.html
 support_section.html
 ```
 
-#How to Use this Template
+# How to Use this Template
 
-##Urls and Views are already created. Use the Following commands to run the app in your local enviroment
+## Urls and Views are already created. Use the Following commands to run the app in your local enviroment
 
 ```
 python manage.py runserver
