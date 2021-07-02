@@ -36,7 +36,8 @@ support_section.html
 
 # How to Use this Template
 
-## Urls and Views are already created. Use the Following commands to run the app in your local enviroment
+### Urls and Views are already created. Use the Following commands to run the app in your local enviroment
+## Head over to Terminal And run this Command 
 
 ```
 python manage.py runserver
